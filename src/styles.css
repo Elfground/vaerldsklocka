@@ -60,8 +60,9 @@ select {
     vertical-align: middle;
 }
 .back {
+    margin-top: 20px;
     display: inline-block;
-    margin-left: 38%;
+    margin-left: 34%;
     font-family: sans-serif;
     padding: 10px 20px;
     background-color: fff;
