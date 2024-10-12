@@ -54,4 +54,9 @@ function updateCity(event) {
 }
 
 let citiesSelectElement = document.querySelector("#city");
-citiesSelectElement.addEventListener("change", updateCity);
+
+// When user select city, update time accordingly and get seconds counted
+citiesSelectElement.addEventListener("change", function (event) {
+    updateCity(event);
+    setInterval(() => updateCity(event), 1000);
+  });
