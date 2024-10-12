@@ -48,7 +48,30 @@ select {
     font-size: 18px;
     vertical-align: middle;
 }
-
+.back {
+    display: inline-block;
+    margin-left: 38%;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    background-color: fff;
+    border-style: solid;
+    border-color: #727272;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.back:hover {
+    background-color: rgb(225, 223, 223);
+}
+a .back {
+    background-color: fff;
+    border-style: solid;
+    border-color: #727272
+}
 a {
     text-decoration: none;
     opacity: 0.6;
