@@ -4,10 +4,13 @@ body {
     background-position: top;
 }
 h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 48px;
     opacity: 0.7;
+    padding-top: 20px;
 }
 h2 {
     margin: 0 0 10px;
@@ -21,13 +24,14 @@ select {
 }
 .container {
     font-family: sans-serif;
-    max-width: 600px;
+    max-width: 450px;
     margin: 60px auto;
     /* background-color: white; */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(30px);
+    padding-bottom: 40px;
 }
 .city {
     border-bottom: dashed;
@@ -39,6 +43,9 @@ select {
 }
 .city:last-child {
     border: none;
+}
+.cities {
+    margin-top: 40px;
 }
 .date {
     font-size: 18px;
@@ -88,7 +95,7 @@ a:hover {
 footer {
     text-align: center;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #605f5f;
     margin-top: -20px;
 }
