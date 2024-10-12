@@ -93,9 +93,15 @@ a:hover {
 }
 
 footer {
+    display: block;
+    margin: 0 auto;
+    max-width: 480px;
     text-align: center;
     font-family: sans-serif;
+    font-stretch: condensed;
     font-size: 14px;
     color: #605f5f;
     margin-top: -20px;
+    backdrop-filter: blur(30px);
+    border-radius: 5px;
 }
